@@ -1,0 +1,181 @@
+.subscribe {
+  border-radius: 2px;
+  background-color: #cc0000;
+  font-weight: 600;
+  color: white;
+  height: 36px;
+  border: none;
+  width: 105px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.15s;
+}
+.subscribe:hover {
+  opacity: 0.7;
+}
+
+.join {
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+  color: blue;
+  height: 36px;
+  width: 62px;
+  border: 1px solid blue;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  margin-right: 10px;
+}
+.join:hover {
+  background-color: blue;
+  color: white;
+}
+
+.tweet {
+  border-radius: 18px;
+  background-color: blue;
+  font-weight: 700;
+  color: white;
+  height: 36px;
+  width: 70px;
+  border: 1px solid blue;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: box-shadow 0.15s;
+}
+.tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.uber {
+  background-color: rgb(0, 0, 0);
+  font-weight: 700;
+  color: white;
+  height: 36px;
+  width: 120px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.uber:hover{
+    opacity: 0.7;
+}
+
+.Amazon {
+  border-radius: 18px;
+  background-color: rgb(255, 216, 20);
+  border: 1px solid rgb(255, 216, 20);
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  height: 36px;
+  width: 150px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.Amazon:hover{
+    background-color: rgb(245, 205, 3);
+}
+
+.github {
+  border-radius: 5px;
+  background-color: rgb(46, 164, 79);
+  border: 1px solid rgb(46, 164, 79);
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  height: 36px;
+  width: 70px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.getStarted {
+  border-radius: 5px;
+  background-color: rgb(121, 82, 179);
+  border: 1px solid rgb(46, 164, 79);
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.download {
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(108, 117, 125);
+  font-weight: 700;
+  color: rgb(108, 117, 125);
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+}
+/* .download:hover{
+    background-color: grey;
+    color: white;
+} */
+
+.linkedinApply {
+  border-radius: 18px;
+  background-color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  height: 36px;
+  width: 220px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.linkedinSave {
+  border-radius: 18px;
+  background-color: transparent;
+  border: 1px solid rgb(10, 102, 194);
+  font-weight: 700;
+  color: rgb(10, 102, 194);
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.amazonContainer {
+  padding: 50px;
+  margin: auto;
+}
+.amazonButtonLink {
+  color: rgb(0, 113, 133);
+}
+.nike {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.inStock {
+  font-size: 20px;
+  color: rgb(0, 118, 0);
+}
+
+.delivery {
+}
+
+.addToCart {
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(255, 164, 28);
+  width: 120px;
+  height: 36px;
+  font-weight: 600;
+}
+
+.buyNow {
+  background-color: rgb(255, 216, 20);
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+  width: 120px;
+  height: 36px;
+  font-weight: 600;
+}
