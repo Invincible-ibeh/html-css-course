@@ -57,8 +57,8 @@
   cursor: pointer;
   margin-right: 10px;
 }
-.uber:hover{
-    opacity: 0.7;
+.uber:hover {
+  opacity: 0.7;
 }
 
 .Amazon {
@@ -72,8 +72,8 @@
   cursor: pointer;
   margin-right: 10px;
 }
-.Amazon:hover{
-    background-color: rgb(245, 205, 3);
+.Amazon:hover {
+  background-color: rgb(245, 205, 3);
 }
 
 .github {
@@ -87,7 +87,9 @@
   cursor: pointer;
   margin-right: 10px;
 }
-
+.github:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
 .getStarted {
   border-radius: 5px;
   background-color: rgb(121, 82, 179);
@@ -99,7 +101,9 @@
   cursor: pointer;
   margin-right: 10px;
 }
-
+.getStarted:hover {
+  background-color: blueviolet;
+}
 .download {
   border-radius: 5px;
   background-color: transparent;
@@ -112,10 +116,10 @@
   margin-right: 10px;
   text-decoration: none;
 }
-/* .download:hover{
-    background-color: grey;
-    color: white;
-} */
+.download:hover {
+  background-color: grey;
+  color: white;
+}
 
 .linkedinApply {
   border-radius: 18px;
@@ -127,6 +131,9 @@
   width: 220px;
   cursor: pointer;
   margin-right: 10px;
+}
+.linkedinApply:hover {
+  background-color: blue;
 }
 
 .linkedinSave {
@@ -140,13 +147,18 @@
   cursor: pointer;
   margin-right: 10px;
 }
-
+.linkedinSave:hover {
+border:2px solid blue;
+background-color: lightblue;}
 .amazonContainer {
   padding: 50px;
   margin: auto;
 }
 .amazonButtonLink {
   color: rgb(0, 113, 133);
+}
+.amazonButtonLink:hover{
+  color: lightcoral;
 }
 .nike {
   font-size: 30px;
@@ -179,7 +191,7 @@
   height: 36px;
   font-weight: 600;
 }
-.anotherbuyNow {
+.buyNow {
   background-color: rgb(255, 216, 20);
   border-radius: 20px;
   border: none;
